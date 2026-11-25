@@ -89,7 +89,10 @@ def main(path):
             l, c = loc(t, m.start())
             print(f"ERROR {l}:{c} {msg} | {ctx(t, m.start(), m.end())!r}")
             err += 1
+    is_table = path.lower().endswith((".csv", ".tsv"))
     for msg, pat in WARNS:
+        if is_table and msg.startswith("จุลภาค"):
+            continue  # จุลภาคใน CSV คือตัวคั่นคอลัมน์
         for m in re.finditer(pat, t):
             l, c = loc(t, m.start())
             print(f"WARN  {l}:{c} {msg} | {ctx(t, m.start(), m.end())!r}")
