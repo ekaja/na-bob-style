@@ -9,21 +9,21 @@ Marketplace ของ Claude Code สำหรับงานของ Softlake
 ## ติดตั้งใน Claude Code
 
 ```bash
-claude plugin marketplace add softlake-co-th/claude-plugins
+claude plugin marketplace add ekaja/na-bob-style
 claude plugin install na-bob-style@softlake-plugins
 ```
 
 หรือพิมพ์ใน Claude Code:
 
 ```
-/plugin marketplace add softlake-co-th/claude-plugins
+/plugin marketplace add ekaja/na-bob-style
 /plugin install na-bob-style@softlake-plugins
 ```
 
 Claude Code เวอร์ชัน 2.1.275 ขึ้นไปติดตั้งได้ในบรรทัดเดียว:
 
 ```
-/plugin install na-bob-style --marketplace softlake-co-th/claude-plugins
+/plugin install na-bob-style --marketplace ekaja/na-bob-style
 ```
 
 ถ้า repo เป็น private เครื่องที่ติดตั้งต้อง login GitHub แล้ว (`gh auth login`)
@@ -39,8 +39,8 @@ claude plugin marketplace update softlake-plugins
 ## ติดตั้งแบบ skill ส่วนตัว (ไม่ผ่าน marketplace)
 
 ```bash
-git clone https://github.com/softlake-co-th/claude-plugins.git
-./claude-plugins/install-skill.sh
+git clone https://github.com/ekaja/na-bob-style.git
+./na-bob-style/install-skill.sh
 ```
 
 ## ใช้งาน
