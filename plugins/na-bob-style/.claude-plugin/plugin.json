@@ -1,0 +1,7 @@
+{
+  "name": "na-bob-style",
+  "version": "0.1.1",
+  "description": "เขียนภาษาไทยและอังกฤษแบบน้า Bob (Softlake) ไม่ให้ดูออกว่า AI เขียน: ภาษากึ่งทางการแบบเอกชนส่งราชการ, ลำดับสระวรรณยุกต์ถูก, ไม่มีอักขระพิเศษ, แปลงเป็น Word ได้",
+  "author": { "name": "Softlake Company Limited" },
+  "keywords": ["thai", "writing", "proposal", "softlake"]
+}

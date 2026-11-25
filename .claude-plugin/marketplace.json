@@ -1,0 +1,19 @@
+{
+  "name": "softlake-plugins",
+  "owner": {
+    "name": "Softlake Company Limited"
+  },
+  "metadata": {
+    "description": "Claude plugins ของ Softlake",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "na-bob-style",
+      "source": "./plugins/na-bob-style",
+      "description": "เขียนภาษาไทยและอังกฤษแบบน้า Bob (Softlake) ไม่ให้ดูออกว่า AI เขียน ภาษากึ่งทางการแบบเอกชนส่งราชการ ลำดับสระวรรณยุกต์ถูก ไม่มีอักขระพิเศษ แปลงเป็น Word ได้",
+      "version": "0.1.1",
+      "keywords": ["thai", "writing", "proposal", "softlake"]
+    }
+  ]
+}
