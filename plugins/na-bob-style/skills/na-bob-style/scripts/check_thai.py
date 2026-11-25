@@ -76,7 +76,7 @@ def ctx(text, s, e):
     return text[max(0, s - 10):e + 10].replace("\n", " ")
 
 def main(path):
-    t = open(path, encoding="utf-8").read()
+    t = open(path, encoding="utf-8-sig").read()  # BOM ที่หัวไฟล์เป็นส่วนของรูปแบบไฟล์ ไม่นับเป็นอักขระต้องห้าม
     err = warn = 0
     for i, ch in enumerate(t):
         if not ALLOWED.match(ch):
